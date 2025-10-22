@@ -31,7 +31,7 @@ const Dashboard = () => {
   ];
 
   const recentActivities = [
-    { id: 1, type: 'shipment', message: 'Shipment #EXP-2024-001 dispatched to USA', time: '2 hours ago', status: 'success' },
+    { id: 1, type: 'shipment', message: 'Shipment #EXP-2025-001 dispatched to USA', time: '2 hours ago', status: 'success' },
     { id: 2, type: 'document', message: 'Certificate of Origin generated for Germany export', time: '4 hours ago', status: 'success' },
     { id: 3, type: 'buyer', message: 'New buyer inquiry from UK for textile products', time: '6 hours ago', status: 'pending' },
     { id: 4, type: 'compliance', message: 'Compliance check completed for Japan export', time: '1 day ago', status: 'success' },

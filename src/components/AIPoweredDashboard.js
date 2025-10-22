@@ -274,7 +274,7 @@ const AIPoweredDashboard = () => {
                     <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
                     <div>
                       <p className="font-medium text-gray-900">Compliance Alert</p>
-                      <p className="text-sm text-gray-600">New labeling requirements effective June 2024</p>
+                      <p className="text-sm text-gray-600">New labeling requirements effective June 2025</p>
                     </div>
                   </div>
                 </div>
@@ -328,7 +328,7 @@ const AIPoweredDashboard = () => {
                 <div className="space-y-3">
                   <div className="p-3 bg-yellow-50 rounded-lg">
                     <p className="text-sm font-medium text-yellow-800">New Labeling Requirements</p>
-                    <p className="text-xs text-yellow-600">Effective: June 2024</p>
+                    <p className="text-xs text-yellow-600">Effective: June 2025</p>
                   </div>
                   <div className="p-3 bg-green-50 rounded-lg">
                     <p className="text-sm font-medium text-green-800">Safety Standards Updated</p>

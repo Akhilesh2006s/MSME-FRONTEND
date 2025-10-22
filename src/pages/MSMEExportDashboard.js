@@ -136,26 +136,26 @@ const MSMEExportDashboard = () => {
 
         setShipments([
           {
-            id: 'EXP-2024-001',
+            id: 'EXP-2025-001',
             destination: 'New York, USA',
             status: 'in_transit',
             progress: 75,
             carrier: 'Maersk',
             trackingNumber: 'MAE123456789',
-            estimatedArrival: '2024-01-25',
+            estimatedArrival: '2025-01-25',
             currentLocation: 'Atlantic Ocean',
             items: ['Textile Products', 'Handicrafts'],
             weight: '2.5 tons',
             value: '₹450,000'
           },
           {
-            id: 'EXP-2024-002',
+            id: 'EXP-2025-002',
             destination: 'Hamburg, Germany',
             status: 'customs_clearance',
             progress: 60,
             carrier: 'Hapag-Lloyd',
             trackingNumber: 'HL987654321',
-            estimatedArrival: '2024-01-28',
+            estimatedArrival: '2025-01-28',
             currentLocation: 'Hamburg Port',
             items: ['Electronics', 'Components'],
             weight: '1.8 tons',
@@ -167,17 +167,17 @@ const MSMEExportDashboard = () => {
           {
             id: 1,
             type: 'commercial_invoice',
-            title: 'Commercial Invoice - EXP-2024-001',
+            title: 'Commercial Invoice - EXP-2025-001',
             status: 'approved',
-            createdDate: '2024-01-15',
+            createdDate: '2025-01-15',
             files: ['commercial-invoice-001.pdf']
           },
           {
             id: 2,
             type: 'packing_list',
-            title: 'Packing List - EXP-2024-001',
+            title: 'Packing List - EXP-2025-001',
             status: 'pending_approval',
-            createdDate: '2024-01-15',
+            createdDate: '2025-01-15',
             files: ['packing-list-001.pdf']
           }
         ]);

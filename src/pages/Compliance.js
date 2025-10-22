@@ -32,7 +32,7 @@ const Compliance = () => {
         { name: 'Flammability Standards', status: 'required', completed: true }
       ],
       alerts: [],
-      lastChecked: '2024-01-15'
+      lastChecked: '2025-01-15'
     },
     {
       id: 2,
@@ -47,9 +47,9 @@ const Compliance = () => {
       ],
       alerts: [
         { type: 'warning', message: 'Product registration pending with BfArM' },
-        { type: 'info', message: 'New labeling requirements effective March 2024' }
+        { type: 'info', message: 'New labeling requirements effective March 2025' }
       ],
-      lastChecked: '2024-01-14'
+      lastChecked: '2025-01-14'
     },
     {
       id: 3,
@@ -66,7 +66,7 @@ const Compliance = () => {
         { type: 'error', message: 'UKCA marking not applied - shipment will be rejected' },
         { type: 'error', message: 'Import license required before shipment' }
       ],
-      lastChecked: '2024-01-13'
+      lastChecked: '2025-01-13'
     }
   ];
 
@@ -75,9 +75,9 @@ const Compliance = () => {
       id: 1,
       country: 'USA',
       title: 'New Textile Labeling Requirements',
-      description: 'Updated fiber content labeling standards effective March 1, 2024',
+      description: 'Updated fiber content labeling standards effective March 1, 2025',
       impact: 'high',
-      effectiveDate: '2024-03-01',
+      effectiveDate: '2025-03-01',
       status: 'active'
     },
     {
@@ -86,7 +86,7 @@ const Compliance = () => {
       title: 'REACH Regulation Updates',
       description: 'New chemical restrictions for consumer products',
       impact: 'medium',
-      effectiveDate: '2024-02-15',
+      effectiveDate: '2025-02-15',
       status: 'upcoming'
     },
     {
@@ -95,7 +95,7 @@ const Compliance = () => {
       title: 'Post-Brexit Import Procedures',
       description: 'Updated customs procedures for UK imports',
       impact: 'high',
-      effectiveDate: '2024-01-20',
+      effectiveDate: '2025-01-20',
       status: 'active'
     }
   ];

@@ -76,41 +76,41 @@ const Documentation = () => {
     {
       id: 1,
       type: 'Commercial Invoice',
-      exportId: 'EXP-2024-001',
+      exportId: 'EXP-2025-001',
       destination: 'USA',
       status: 'completed',
-      createdDate: '2024-01-15',
-      lastModified: '2024-01-15',
+      createdDate: '2025-01-15',
+      lastModified: '2025-01-15',
       files: ['commercial-invoice-001.pdf']
     },
     {
       id: 2,
       type: 'Packing List',
-      exportId: 'EXP-2024-001',
+      exportId: 'EXP-2025-001',
       destination: 'USA',
       status: 'completed',
-      createdDate: '2024-01-15',
-      lastModified: '2024-01-15',
+      createdDate: '2025-01-15',
+      lastModified: '2025-01-15',
       files: ['packing-list-001.pdf']
     },
     {
       id: 3,
       type: 'Certificate of Origin',
-      exportId: 'EXP-2024-002',
+      exportId: 'EXP-2025-002',
       destination: 'Germany',
       status: 'pending',
-      createdDate: '2024-01-16',
-      lastModified: '2024-01-16',
+      createdDate: '2025-01-16',
+      lastModified: '2025-01-16',
       files: []
     },
     {
       id: 4,
       type: 'Bill of Lading',
-      exportId: 'EXP-2024-001',
+      exportId: 'EXP-2025-001',
       destination: 'USA',
       status: 'in-progress',
-      createdDate: '2024-01-15',
-      lastModified: '2024-01-16',
+      createdDate: '2025-01-15',
+      lastModified: '2025-01-16',
       files: ['bol-draft-001.pdf']
     }
   ];
